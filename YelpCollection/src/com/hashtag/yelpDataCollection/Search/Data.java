@@ -22,10 +22,10 @@ public class Data {
 		String str = null;
 		int j = 0;
 		int exceptionCount=0;
-		yelpApi = new YelpAPI("7BH3Obj4ObI4EUXxSDvebg",
-				"8NLlRCbjxiR8yY51Jrj1gsEkDUM",
-				"kLJB94t2ZXQ5MWeQ2rYKmJ_hh9-eWwrM",
-				"DRw1iym5P6Nyz8T0M_J71HUnLQk");
+		yelpApi = new YelpAPI("CONSUMER_KEY ",
+				"CONSUMER_SECRET ",
+				"TOKEN",
+				"TOKEN_SECRET ");
 		while ((str = br.readLine()) != null) {
 
 			if (j ==24000) {
