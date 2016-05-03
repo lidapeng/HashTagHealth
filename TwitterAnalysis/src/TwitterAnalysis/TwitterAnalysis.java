@@ -30,8 +30,8 @@ import twitter4j.conf.ConfigurationBuilder;
 public class TwitterAnalysis implements  Runnable{
 	
 	  Twitter twitter ;
-    private final static String CONSUMER_KEY = "dd6Q5JvYyOiEYsstLB0ksnM1l";
-    private final static String CONSUMER_KEY_SECRET = "67U7U5N4q5dwHsPuprE0MiCkwbMOmyjph9K8bYlXq67Evbl6E3";
+    private final static String CONSUMER_KEY = "";
+    private final static String CONSUMER_KEY_SECRET = "";
     StringBuffer buffer=new StringBuffer();
 	private double[][] locations = { {-122.75, 36.8}, {-121.75, 37.8} };
 	 Mappers mapper=new Mappers();
@@ -52,10 +52,10 @@ public class TwitterAnalysis implements  Runnable{
 
     	ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true);
-        cb.setOAuthConsumerKey("dd6Q5JvYyOiEYsstLB0ksnM1l");
-        cb.setOAuthConsumerSecret("67U7U5N4q5dwHsPuprE0MiCkwbMOmyjph9K8bYlXq67Evbl6E3");
-        cb.setOAuthAccessToken("2876123010-3AAJqxH3Q8l5A59rE6Cgem4MIrXCka02OLhVV3b");
-        cb.setOAuthAccessTokenSecret("32BTFhCQAHPrxeMyjAOSe1povBIg1TpgqWHFqDJnWxGLV");
+        cb.setOAuthConsumerKey("ConsumerKey");
+        cb.setOAuthConsumerSecret("ConsumerSecret");
+        cb.setOAuthAccessToken("Oauth_Access_Token");
+        cb.setOAuthAccessTokenSecret("Oauth_Token_Scret");
         
         Configuration conf=cb.build();
         TwitterFactory factory = new TwitterFactory(conf);
