@@ -1,5 +1,5 @@
 # HashTagHealth
-This repository aims to publish and share the code used for our project entitled "HashtagHealth: A Social Media Big Data Resource for Neighborhood Effects Research". This project is funded by the National Institute of Health (NIH)
+This repository aims to publish and share the code used for our project entitled "HashtagHealth: A Social Media Big Data Resource for Neighborhood Effects Research". This project is funded by the National Institute of Health (NIH).
 
 Relevant publications related to this project are as follows:
 
